@@ -10,18 +10,23 @@
   </head>
   <body>
     <section>
-
-      <div class=" width:25px;">
-            <div class=" absolute left-0 top-0 h-16 w-24">
-              <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                src="img/logo.png">
-            </div>
-          </div>
+      <div class="width:25px;">
+        <div class="absolute left-0 top-0 h-16 w-24">
+          <img
+            alt="gallery"
+            class="block object-cover object-center w-full h-full rounded-lg"
+            src="img/logo.png"
+          />
+        </div>
+      </div>
     </section>
-   
+
     <audio id="aiaiai" src="sounds/aiaiai.mp3"></audio>
     <audio id="cavalo" src="sounds/cavalo.mp3"></audio>
-    <audio id="danca_gatinho_danca" src="sounds/danca_gatinho_danca.mp3"></audio>
+    <audio
+      id="danca_gatinho_danca"
+      src="sounds/danca_gatinho_danca.mp3"
+    ></audio>
     <audio id="demais" src="sounds/demais.mp3"></audio>
     <audio id="e_brincadeira_ein" src="sounds/e_bricadeira_ein.mp3"></audio>
     <audio id="ele_gosta" src="sounds/ele_gosta.mp3"></audio>
@@ -32,30 +37,44 @@
     <audio id="xiii" src="sounds/xiii.mp3"></audio>
 
     <div id="botao"></div>
-    
+
     <script src="script.js"></script>
 
-
-    <section class="overflow-hidden text-gray-700 ">
+    <section class="overflow-hidden text-gray-700">
       <div class="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
         <div class="flex flex-wrap -m-1 md:-m-2">
           <div class="flex flex-wrap w-1/3">
-            <div class="w-80 h-80 p-1 md:p-2">
-              <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                src="img/faro3.png">
+            <div class="w-80 h-80 p-1 md:p-2" onclick="playImg(this)">
+              <img
+                alt="gallery"
+                class="block object-cover object-center w-full h-full rounded-lg"
+                src="img/faro3.png"
+                id="faro1"
+                onclick="playImg('ui')"
+              />
             </div>
           </div>
-          
+
           <div class="flex flex-wrap w-1/3">
             <div class="w-80 h-80 p-1 md:p-2">
-              <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                src="img/case2.jpeg">
+              <img
+                alt="gallery"
+                class="block object-cover object-center w-full h-full rounded-lg"
+                src="img/case2.jpeg"
+                id="case2"
+                onclick="playImg('xiii')"
+              />
             </div>
           </div>
           <div class="flex flex-wrap w-1/3">
             <div class="w-80 h-80 p-1 md:p-2">
-              <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                src="img/faro2.png">
+              <img
+                alt="gallery"
+                class="block object-cover object-center w-full h-full rounded-lg"
+                src="img/faro2.png"
+                id="faro2"
+                onclick="playImg('ui')"
+              />
             </div>
           </div>
         </div>

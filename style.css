@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
- height: auto;
+  height: auto;
   margin: 0;
 }
 .btn {
@@ -22,7 +22,7 @@ body {
   border: solid;
   color: rgb(8, 7, 7);
   margin: 100px 1px 0px 25px;
-  padding: 1.0rem 25px;
+  padding: 1rem 25px;
   font-size: 1.2rem;
   font-family: inherit;
   cursor: pointer;
@@ -32,4 +32,10 @@ body {
 }
 .btn:focus {
   outline: none;
+}
+
+#faro1,
+#faro2,
+#case2 {
+  cursor: pointer;
 }

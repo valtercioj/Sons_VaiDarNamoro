@@ -35,3 +35,15 @@ function stopSongs() {
     song.currentTime = 0;
   });
 }
+
+// const faro1 = document.getElementById("faro1");
+// const faro2 = document.getElementById("faro2");
+// const case2 = document.getElementById("case2");
+
+// case2.addEventListener("click", () => {
+//   document.getElementById("xiii").play();
+// });
+
+const playImg = (msc) => {
+  document.getElementById(msc).play();
+};
